@@ -22,8 +22,8 @@ int LEFT_TOUCH = 0;
 int RIGHT_TOUCH = 0;
 
 //determined by reading pots on setup
-int MAX_SPEED = 200;
-int MIN_SPEED = 10;
+int MAX_SPEED = 250;
+int MIN_SPEED = 240;
 
 int ROT_SPEED = 0;
 int ACCELERATION = 1;
@@ -250,9 +250,7 @@ void loop() {
       }
     }
 
-    //set_pwm_direct(LEFT_SPEED, RIGHT_SPEED);
-    OCR2B = 255 - RIGHT_SPEED;
-    OCR2A = 255;
+    set_pwm_direct(LEFT_SPEED, RIGHT_SPEED);
     
     int printSpeeds = 0;
     if(printSpeeds){
