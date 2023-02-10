@@ -1,0 +1,99 @@
+( { EESchema Netlist Version 1.1 created  2/9/2023 12:08:32 PM }
+ ( /63E4C998 Module:Arduino_Nano  A1 Arduino_Nano_v2.x
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 GNDREF )
+  (    5 ? )
+  (    6 Net-(A1-Pad6) )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 Net-(A1-Pad12) )
+  (   13 Net-(A1-Pad13) )
+  (   14 Net-(A1-Pad14) )
+  (   15 ? )
+  (   16 ? )
+  (   17 ? )
+  (   18 ? )
+  (   19 Net-(A1-Pad19) )
+  (   20 Net-(A1-Pad20) )
+  (   21 Net-(A1-Pad21) )
+  (   22 ? )
+  (   23 ? )
+  (   24 ? )
+  (   25 ? )
+  (   26 ? )
+  (   27 Net-(A1-Pad27) )
+  (   28 ? )
+  (   29 GNDREF )
+  (   30 ? )
+ )
+ ( /63E4E0BD Capacitor_THT:CP_Radial_D8.0mm_P3.80mm  C1 CP
+  (    1 Net-(A1-Pad27) )
+  (    2 GNDREF )
+ )
+ ( /63E4E878 Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal  R5 10k
+  (    1 BATT )
+  (    2 Net-(A1-Pad13) )
+ )
+ ( /63E4F081 Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal  R4 10k
+  (    1 BATT )
+  (    2 Net-(A1-Pad12) )
+ )
+ ( /63E4F220 Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal  R6 10k
+  (    1 BATT )
+  (    2 Net-(A1-Pad6) )
+ )
+ ( /63E4F405 Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal  R7 10k
+  (    1 BATT )
+  (    2 Net-(A1-Pad14) )
+ )
+ ( /63E4F74C Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal  R1 1M
+  (    1 Net-(A1-Pad19) )
+  (    2 GNDREF )
+ )
+ ( /63E4FCF4 Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal  R2 1M
+  (    1 Net-(A1-Pad20) )
+  (    2 GNDREF )
+ )
+ ( /63E5003A Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal  R3 1M
+  (    1 Net-(A1-Pad21) )
+  (    2 GNDREF )
+ )
+ ( /63E50FB7 Connector:Banana_Jack_2Pin  BT1 Battery
+  (    1 Net-(BT1-Pad1) )
+  (    2 GNDREF )
+ )
+ ( /63E51A25 Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical  BRIDGE_CONN1 Conn_01x06_Male
+  (    1 Net-(A1-Pad12) )
+  (    2 Net-(A1-Pad13) )
+  (    3 GNDREF )
+  (    4 BATT )
+  (    5 Net-(A1-Pad6) )
+  (    6 Net-(A1-Pad14) )
+ )
+ ( /63E4DBD0 Diode_THT:D_DO-15_P15.24mm_Horizontal  D1 DIODE
+  (    1 BATT )
+  (    2 Net-(A1-Pad27) )
+ )
+ ( /63E616D1 Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical  BOX_FLOOR1 Conn_01x01_Male
+  (    1 Net-(A1-Pad27) )
+ )
+ ( /63E626F0 Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical  BOX_FRONT1 Conn_01x01_Male
+  (    1 Net-(A1-Pad19) )
+ )
+ ( /63E62904 Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical  BOX_LEFT1 Conn_01x01_Male
+  (    1 Net-(A1-Pad20) )
+ )
+ ( /63E62BCC Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical  BOX_RIGHT1 Conn_01x01_Male
+  (    1 Net-(A1-Pad21) )
+ )
+ ( /63E8BA8B Button_Switch_THT:KSA_Tactile_SPST  SW1 SW_DIP_x01
+  (    1 BATT )
+  (    2 Net-(BT1-Pad1) )
+ )
+)
+*
